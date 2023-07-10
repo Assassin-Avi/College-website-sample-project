@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="LOGO"></a>
+            <div class="navbar" id="navbar">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME </a></li>
+                    <li> <a href="#">ABOUT</a></li>
+                    <li> <a href="blog.html">BLOG</a></li>
+                    <li> <a href="course.html">COURSE</a></li>
+                    <li> <a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About US</h1>
+    </section>
+    <section class="about">
+        <div class="row">
+            <div class="about-col">
+                <h1>A good and Nice University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aperiam earum, totam odit sapiente modi non, quaerat debitis assumenda natus iusto quasi blanditiis cupiditate. Necessitatibus, atque voluptatem provident unde doloribus molestiae deserunt fugit natus a? Deserunt maxime illo iste labore laborum, cumque soluta molestias tempora dolore iure enim veritatis ab?</p>
+                <a href="" class="h-btn r-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="img/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+   
+
+    <!-- Footer -->
+    <footer> &copy;All Rigths Reserved Code By Avinash2023</footer>
+
+    <!-- JavaScript For toggle Menu -->
+    <script>
+        var navbar = document.getElementById("navbar");
+        function showMenu() {
+            navbar.style.right = "0"
+        }
+        function hideMenu() {
+            navbar.style.right = "-210px"
+        }
+    </script>
+</body>
+
+</html>
